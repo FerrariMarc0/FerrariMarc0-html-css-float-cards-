@@ -1,0 +1,80 @@
+/*************************
+        RESET
+**************************/
+
+* {
+    margin: 0;
+    padding: 0;               
+    box-sizing: border-box;
+}
+
+/*************************
+        TITLE
+**************************/
+
+body{
+    font-family: 'Kalam', cursive;
+}
+
+#title{
+    text-align: center;
+    max-width: 1500px;
+    margin: 20px auto;
+}
+
+#title p{
+    font-size: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fa8072;
+}
+/*************************
+        MAIN
+**************************/
+div a{
+    text-decoration: none;
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px;
+}
+/*************************
+        LAYOUT BOX
+**************************/
+.box{
+    color: white;
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px;
+}
+
+.image{
+    float: left;
+    width: calc(30% - 15px);
+}
+
+.content{
+    font-weight: 600;
+    float: left;
+    width: 70%;
+    padding: 10px 70px;
+    margin: 5px 0 0 10px;
+}
+
+.img{
+    width: 100%;
+    display: block;
+}
